@@ -118,7 +118,74 @@
 
 /* Mobile */
 @media(max-width: 450px) {
-  
+  #section02 {
+    background-image:
+    linear-gradient(
+      #bbb 100%,
+      #ffffff 1%
+    );
+    width: 100%;
+    display: flex;
+}
+
+.course-1 .texto-1 {
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-top: 20%;
+   }
+
+ .course-1 .texto-2 {
+  margin-top: 20%;
+  font-size: 1.5em;
+  font-weight: 200;
+  text-align: center;
+ }
+
+ .course-1 .curso-1 {
+  margin-top: 20%;
+  font-size: 1.3em;
+  font-weight: 200;
+ }
+
+ .course-1 .curso-2 {
+  margin-top: 20%;
+  font-size: 1.3em;
+  font-weight: 200;
+ }
+
+ 
+ /* Social */ 
+  .social-1 {
+  margin-top: 20%;
+  font-size: 2.2em;
+  font-weight: 200;
+  margin-bottom: 25%;
+ }
+
+ #icon-1 {
+  margin-bottom: 25px; 
+  font-size: 4em;
+  color: rgb(3, 148, 3); 
+}
+
+#icon-2 {
+  margin-bottom: 25px;
+ }
+ #social .icon-1 {
+  font-size: 4em;
+  color: rgb(3, 148, 3);
+  margin-top: 25%;
+  margin-left: 20%;
+
+ } 
+
+ #social .icon-2 {
+  font-size: 4em;
+  color: rgb(3, 148, 3);
+ }
+
+
+
 } 
  
 /* Medium devices (landscape tablets, 768px and up) */
