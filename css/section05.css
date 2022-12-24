@@ -125,24 +125,12 @@
     margin-top: 20px;
   }
   
-  #phone-text:hover {
-    color: #d1c2ee;
-  }
   
   .mail {
     margin-top: 30%;
     font-size: 1.2em;   
   }
   
-  #mail-text {
-    color: #58bdc0;
-    font-size: 1.3em;
-    text-decoration: none;  
-  }
-
-#mail-text:hover {
-    color: #d1c2ee; 
-  }
 
    /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 920px) and (min-width: 860px) {

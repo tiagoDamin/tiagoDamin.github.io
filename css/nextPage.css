@@ -318,3 +318,16 @@
       opacity: 0;
     }
   }
+
+  /* Mobile */
+ @media(max-width: 450px) {   
+  .demo .next {
+    left: 85%;
+    transition: 1.3s;
+    bottom: 5%;
+  }
+  .demo .next:hover {
+    opacity: .5;
+  }  
+  
+ }
