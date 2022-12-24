@@ -1,0 +1,97 @@
+
+
+/* Desktop */
+ #section05 {
+  background-image:
+  linear-gradient(
+    to right, 
+    #ffffff,
+    #ffffff 15%,
+    #bbb 15%,
+    #bbb 85%,
+    #ffffff 85%
+  );
+  width: 98%;
+  display: flex;
+ justify-content: center;
+}
+
+#contact {
+  position: absolute;
+  top: 5%;
+  color: #a0d3ec;
+  font-size: 3em;
+  font-weight: 400;
+  text-transform: uppercase;
+  }
+
+  /* Dados */
+  #page05 {
+  /* border: 5px solid #000; */
+  /* border-bottom: 5px solid #000000; */
+  /* estilo de posicionamento e largura*/
+  width: 70%;
+  padding-top: 30px; 
+  display: block;
+  text-align: center;
+  } 
+
+  #nome-dado {
+    font-size: 3.5em;
+    color: #ed1c24;
+    margin-top: 10%;
+    margin-bottom: 30px;
+  } 
+ 
+  .address {
+    font-size: 2em;
+    color: #473a16;
+    margin-bottom: 30px;
+  }
+
+  .city {
+    font-size: 2.4em;
+    color: #473a16;
+  }
+
+  .phone {
+    font-size: 1.6em;
+    margin-top: 20px;
+  }
+  
+  #phone-text {
+    font-size: 2em;
+    color: #58bdc0;
+    text-decoration: none;
+  }
+  
+  #phone-text:hover {
+    color: #d1c2ee;
+  }
+  
+  .mail {
+    margin-top: 50px;
+    font-size: 1.5em;   
+  }
+  
+  #mail-text {
+    margin-bottom: 30px;
+    color: #58bdc0;
+    font-size: 1.3em;
+    text-decoration: none;  
+  }
+
+#mail-text:hover {
+    color: #d1c2ee; 
+  }
+
+
+ /* Mobile */
+ @media(max-width: 450px) {
+  
+ }
+
+   /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 920px) and (min-width: 860px) {
+  
+}

@@ -1,0 +1,127 @@
+
+  #section02 {
+    background-image:
+    linear-gradient(
+      to right, 
+      #ffffff,
+      #ffffff 15%,
+      #bbb 15%,
+      #bbb 85%,
+      #ffffff 85%
+    );
+    width: 98%;
+    display: flex;
+   justify-content: center;
+  }
+
+  
+  #page02 {
+    width: 70%;
+    /* border: 5px solid #000;  */
+    border-bottom: 5px solid #000000;
+    /* estilo de posicionamento e largura */    
+    display: block;
+    top: 5%;    
+  }
+
+  #about {
+    color: #59c7d8;
+    font-size: 3em;
+    text-transform: uppercase;
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+   .course-1 li {
+    list-style: none;
+   }
+  
+   .course-1 .texto-1 {
+    color: #2987f1;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 40px;
+    text-align: center;
+     }
+  
+   .course-1 .texto-2 {
+    margin-top: 3%;
+    color: #395244;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+   }
+  
+   .course-1 .curso-1 {
+    margin-top: 3%;
+    color: #d46f10;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+   }
+  
+   .course-1 .curso-2 {
+    margin-top: 2%;
+    color: #395244;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+   }
+  
+   
+   /* Social */ 
+    .social-1 {
+    color: #6bc2d6;
+    margin-top: 3%;
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 30px;
+   }
+  
+   #icon-1 {
+    margin-bottom: 25px; 
+    font-size: 4em;
+    color: rgb(3, 148, 3);  
+    text-decoration: none;
+    margin-left: 40%;
+  }
+  
+  #icon-2 {
+    margin-bottom: 25px;
+    margin-left: 2%;
+    text-decoration: none;
+   }
+   #social .icon-1 {
+    font-size: 4em;
+    color: rgb(3, 148, 3);
+
+   }
+  
+   #social .icon-1:hover {
+    color: red;
+  }
+  
+   #social .icon-2 {
+    font-size: 4em;
+    color: rgb(3, 148, 3);
+   }
+  
+   #social .icon-2:hover {
+    color: red;
+  }
+
+
+/* Mobile */
+@media(max-width: 450px) {
+  
+} 
+ 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 920px) and (min-width: 860px) {
+  
+}
