@@ -111,8 +111,55 @@
 }
   /* Mobile */
   @media(max-width: 450px) {
-    
+    #section04 {
+      background-image:
+      linear-gradient(
+        #bbb 100%,
+        #ffffff 1%
+      );
+      width: 100%;
+      display: flex;
+  } 
 
+  #page04 {
+    border-bottom: transparent;
+  }
+
+  #tech-title {
+    display: flex;
+    font-size: 2.8em;
+    padding-bottom: 20%;
+  }
+   
+  
+  #icone-1, #icone-2 {
+    margin-top: 40%;
+  }
+
+  #icone-3, #icone-4 {
+    margin-bottom: 25%;
+  }
+  #icone-1, 
+  #icone-2, 
+  #icone-3, 
+  #icone-4
+  {
+    font-size: 7em;
+  }
+  
+  #icone-5, 
+  #icone-6, 
+  #icone-7, 
+  #icone-8
+  {
+    font-size: 7em;
+  }   
+
+  #icone-7, #icone-8 {
+    margin-top: -20vh;
+  }
+  
+  
   } 
 
   /* Medium devices (landscape tablets, 768px and up) */

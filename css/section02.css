@@ -128,6 +128,10 @@
     display: flex;
 }
 
+#page02 {
+  border-bottom: transparent;
+}
+
 .course-1 .texto-1 {
   font-size: 1.5em;
   font-weight: 300;
