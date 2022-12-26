@@ -109,6 +109,8 @@
   background-color: white;
   border-radius: 10px;
 }
+
+
   /* Mobile */
   @media(max-width: 450px) {
     #section04 {
@@ -163,7 +165,7 @@
   } 
 
   /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 920px) and (min-width: 790px) {
+@media only screen and (max-width: 1200px) and (min-width: 500px) {
   #section04 {
     background-image:
     linear-gradient(
@@ -177,17 +179,25 @@
 }
 
 #tech-title {
-   font-size: 3em;
+   font-size: 2em;
    margin-top: 10px;
 }  
+
+#icone-1, 
+#icone-2, 
+#icone-3, 
+#icone-4
+{
+  font-size: 6em;
+}
 
 #icone-5, 
 #icone-6, 
 #icone-7, 
 #icone-8
 {
-  margin-top: -7vh;
-}
+  font-size: 6em;
+} 
 
 
 }

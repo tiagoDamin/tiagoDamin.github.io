@@ -252,3 +252,68 @@
   color: rgb(3, 148, 3);
  }
 }
+
+@media only screen and (max-width: 1200px) and (min-width: 490px) {
+  #section02 {
+    background-image:
+    linear-gradient(
+      to right, 
+      #bbb 100%,
+      #bbb 100%,
+      #bbb 100%
+    );
+    width: 100%;
+    display: flex;
+}
+
+
+
+.course-1 .texto-1 {
+  font-size: 1.3em;
+  margin-top: 5%;
+   }
+
+ .course-1 .texto-2 {
+  margin-top: 5%;
+  font-size: 1.3em;
+ }
+
+ .course-1 .curso-1 {
+  margin-top: 5%;
+  font-size: 1.3em;
+ }
+
+ .course-1 .curso-2 {
+  margin-top: 5%;
+  font-size: 1.3em;
+ }
+
+ 
+ /* Social */ 
+  .social-1 {
+  font-size: 1.5em;
+  margin-bottom: 15%;
+ }
+
+ #icon-1 {
+  font-size: 4em;
+  color: rgb(3, 148, 3); 
+  margin-top: 5%;
+}
+
+#icon-2 {
+  margin-bottom: 25px;
+ }
+ #social .icon-1 {
+  font-size: 4em;
+  color: rgb(3, 148, 3);
+  margin-top: 20vh;
+  margin-left: 40%;
+
+ } 
+
+ #social .icon-2 {
+  font-size: 4em;
+  color: rgb(3, 148, 3);
+ }
+}

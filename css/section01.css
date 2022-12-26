@@ -76,7 +76,7 @@
 
     #nome {
         font-size: 2.5em;
-        margin-top: 60%;
+        margin-top: 45%;
     }
 
     #course01 {
@@ -84,42 +84,44 @@
         font-weight: 500;
         margin-top: 60%;
     }
-
 } 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 920px) and (min-width: 790px) {
-    #section01 {
-        background-image:
-        linear-gradient(
-          #bbb 100%,
-          #ffffff 1%
-        );
-        width: 100%;
-        display: flex;
-    }
-
+@media only screen and (max-width: 1200px) and (min-width: 500px) {
+   
     #page01 {
+        background: url(../img/tiago.png) center center / cover no-repeat;
+        opacity: 1;
         width: 100%;
-        border-bottom: transparent;
+        height: auto;
+     /* estilo de posicionamento e largura*/
+     display: block;
+     padding-top: 5%;
     }
-
-
+       
     #profissao {
-        font-size: 2.5em;
-        color: #08a1ee;
+        color: #3ba3d6;
+        font-size: 3em;
+        text-transform: uppercase;
+        text-align: center;
     }
-
+    
+    
     #nome {
-        font-size: 2.5em;
+        margin-top: 20%;
+        font-size: 3em;
+        color: #c1c3c5;
+        white-space: nowrap;
+        text-align: center;
     }
-
+    
     #course01 {
-        color: #ffffff;
-        font-size: 1.5em;
-        font-weight: 500;
+        color: #15abe6;
+        font-size: 2em;
+        margin-top: 10%;
+        font-weight: 300;
         text-align: center;
     }
 }
+
 
 
