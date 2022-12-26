@@ -179,5 +179,15 @@
 #tech-title {
    font-size: 3em;
    margin-top: 10px;
-}   
+}  
+
+#icone-5, 
+#icone-6, 
+#icone-7, 
+#icone-8
+{
+  margin-top: -7vh;
+}
+
+
 }

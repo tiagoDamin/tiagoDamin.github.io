@@ -350,7 +350,7 @@
     left: 90%;
     color: red;
     transition: 1.3s;
-    bottom: 5%;
+    bottom: 10%;
   }
   .demo .next:hover {
     opacity: .5;
@@ -370,21 +370,21 @@
   #section03 .next span:nth-of-type(1),
   #section04 .next span:nth-of-type(1),
   #section05 .next span:nth-of-type(1) {
-    bottom: 8vh;
+    bottom: 10vh;
   }
   #section02 .next span:nth-of-type(2),
   #section03 .next span:nth-of-type(2),
   #section04 .next span:nth-of-type(2),
   #section05 .next span:nth-of-type(2) {
     top: 16px;
-    bottom: 6vh;
+    bottom: 8vh;
   }
   #section02 .next span:nth-of-type(3),
   #section03 .next span:nth-of-type(3),
   #section04 .next span:nth-of-type(3),
   #section05 .next span:nth-of-type(3) {
     top: 32px;
-    bottom: 4vh;
+    bottom: 8vh;
   }
   
 }
