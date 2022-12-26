@@ -19,7 +19,7 @@
 #contact {
   position: absolute;
   top: 5%;
-  color: #a0d3ec;
+  color: #f5f5f5;
   font-size: 3em;
   font-weight: 400;
   text-transform: uppercase;
@@ -58,11 +58,11 @@
     /* border: 2px solid #000; */
     padding-bottom: 60px;
     margin-top: 20px;
+    color: #f5f5f5;
   }
   
   #phone-text {
     font-size: 2em;
-    color: #58bdc0;
     text-decoration: none;
   }
   
@@ -74,10 +74,10 @@
   .mail {
     font-size: 1.5em;  
     padding: 0;
+    color: #f5f5f5;
   }
   
   #mail-text {
-    color: #58bdc0;
     font-size: 1.3em;
     text-decoration: none;  
   }
@@ -175,7 +175,7 @@
   }
 
   .phone {
-    font-size: 1.2em;
+    font-size: 1em;
     margin-top: 5vh;
   }
   
@@ -197,7 +197,6 @@
   }
   
   #mail-text {
-    color: #58bdc0;
     font-size: 1.5em;
     text-decoration: none;  
   }

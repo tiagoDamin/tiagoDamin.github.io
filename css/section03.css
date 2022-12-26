@@ -16,7 +16,7 @@
  }
 
  #idiomas{
-  color:#67d0e6;
+  color:#f5f5f5;
   font-size: 3em;
   font-weight: 400;
   text-transform: uppercase;
@@ -188,7 +188,7 @@
 
 #page03 {
   display: flex;
-  margin-left: -25vh;
+  margin-left: -15vh;
   margin-top: 10vh;
 }
 .container-1 {

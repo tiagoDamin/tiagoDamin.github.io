@@ -26,7 +26,7 @@
 }
    
 #profissao {
-    color: #3ba3d6;
+    color: #f5f5f5;
     font-size: 5em;
     text-transform: uppercase;
     text-align: center;
@@ -42,7 +42,7 @@
 }
 
 #course01 {
-    color: #15abe6;
+    color: #f5f5f5;
     font-size: 2em;
     margin-top: 10%;
     font-weight: 300;
@@ -99,7 +99,6 @@
     }
        
     #profissao {
-        color: #3ba3d6;
         font-size: 3em;
         text-transform: uppercase;
         text-align: center;
@@ -109,13 +108,9 @@
     #nome {
         margin-top: 20%;
         font-size: 3em;
-        color: #c1c3c5;
-        white-space: nowrap;
-        text-align: center;
     }
     
     #course01 {
-        color: #15abe6;
         font-size: 2em;
         margin-top: 10%;
         font-weight: 300;
