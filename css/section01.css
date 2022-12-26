@@ -63,12 +63,14 @@
 
     #page01 {
         width: 100%;
+        max-height: 70%;
         border-bottom: transparent;
     }
 
 
     #profissao {
         font-size: 2.5em;
+        color: #08a1ee;
         margin-top: 20px;
     }
 
@@ -78,14 +80,45 @@
     }
 
     #course01 {
-        margin-top: 50%;
+        color: #000000;
+        font-weight: 500;
+        margin-top: 60%;
     }
 
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 920px) and (min-width: 860px) {
-    
+@media only screen and (max-width: 920px) and (min-width: 790px) {
+    #section01 {
+        background-image:
+        linear-gradient(
+          #bbb 100%,
+          #ffffff 1%
+        );
+        width: 100%;
+        display: flex;
+    }
+
+    #page01 {
+        width: 100%;
+        border-bottom: transparent;
+    }
+
+
+    #profissao {
+        font-size: 2.5em;
+        color: #08a1ee;
+    }
+
+    #nome {
+        font-size: 2.5em;
+    }
+
+    #course01 {
+        display: flex;
+        color: #000000;
+        font-weight: 500;
+    }
 }
 
 
