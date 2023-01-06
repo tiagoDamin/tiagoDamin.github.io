@@ -77,4 +77,8 @@ h1 {
         font-size: 2rem;
         margin-top: 40px;
     }
+
+    .content a {
+        font-size: 1.7rem;
+    }
 } 
