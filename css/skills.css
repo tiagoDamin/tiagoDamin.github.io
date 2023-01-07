@@ -107,6 +107,16 @@ i {
     border: 5px solid darkred;
 }
 
+@media only screen and (max-width: 820px) and (min-width: 500px) {
+     .container-skills p {
+        font-size: 1.3rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
 /* Mobile */
 @media(max-width: 450px) {
     .container-skills p {

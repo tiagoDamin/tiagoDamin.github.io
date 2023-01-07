@@ -138,7 +138,7 @@ span {
 /* Mobile */
 @media(max-width: 450px) {
     .principal {
-        height: 57%;
+        height: 50%;
     }
 
     .curso {
