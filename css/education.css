@@ -88,6 +88,11 @@ span {
     font-size: 1.1rem;
 }
 
+.links-education a:hover {
+    border: 3px solid #bbb;
+    color: darkred;
+}
+
 .voltar {
     display: flex;
     text-decoration: none;
@@ -126,12 +131,18 @@ span {
     .links-education a {
         font-size: 0.6rem;
     }
+
+    
 }
 
 /* Mobile */
 @media(max-width: 450px) {
+    .principal {
+        height: 57%;
+    }
+
     .curso {
-        margin-left: 70px;
+        margin-left: 50px;
     }
 
     .voltar {
@@ -146,15 +157,15 @@ span {
     .container-education li {
         display: flex;
         flex-wrap: wrap;
-        font-size: 1.3rem;
+        font-size: 1rem;
         justify-content: center;
     }
 
     .links-education a {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     span {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 } 

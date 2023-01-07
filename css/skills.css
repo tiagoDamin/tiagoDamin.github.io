@@ -109,6 +109,10 @@ i {
 
 /* Mobile */
 @media(max-width: 450px) {
+    .container-skills p {
+        font-size: 1.3rem;
+    }
+    
     .voltar {
         font-size: 2rem;
         margin-top: 40px;
