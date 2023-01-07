@@ -157,7 +157,7 @@ span {
     .container-education li {
         display: flex;
         flex-wrap: wrap;
-        font-size: 1rem;
+        font-size: 0.9rem;
         justify-content: center;
     }
 
@@ -167,5 +167,6 @@ span {
 
     span {
         margin-bottom: 5px;
+        font-size: 0.9rem;
     }
 } 
