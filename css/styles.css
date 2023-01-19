@@ -5,10 +5,16 @@
     padding: 0;
 }
 
+body {
+    background-image: url(../image/home.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.8;
+}
 .container-main {
     height: 100vh;
     width: 100vw;
-    background-color: #111111;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,38 +26,105 @@ h1 {
     line-height: 2.5rem;
     font-size: 3em;
     color: #fff;
+    padding: 40px 0;
+    margin-top: -10vh;
+    text-transform: uppercase;
 }
 
 #container ul {
     display: flex;
     margin-top: 40px;
     list-style: none;
-    border-top: 3px solid #bbb;    
-    border-bottom: 3px solid #bbb; 
-    padding: 10px 10px;   
+    padding: 0 10px;   
+    margin-top: -2vh;
     
 }
 
 #links a {
-    color: #fff;
+    color: #fffffc;
     text-decoration: none;
     margin-right: 10px;
-    padding: 10px;
+    padding:  10px 10px 5px 10px;
     text-transform: uppercase;
     transition: .5s;
 }
 
 #links a:hover {
-    border-right: 5px solid darkred;
-    border-left: 5px solid darkred;
+    border-bottom: 10px solid darkred;
 }
+
+/* Animação cubo */
+
+  .cube {
+    width: 300px;
+    height: 300px;
+  
+    animation: rotate 25s infinite alternate;
+    transform-style: preserve-3d;
+  }
+  
+  .face {
+    background: linear-gradient(45deg, #bbb,#8cc9c3cc);
+    border: 2px solid #4fd1c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+  
+    width: 200px;
+    height: 200px;
+    position: absolute;
+  }
+  
+  .face--front {
+    transform: translateZ(100px);
+  }
+  
+  .face--right {
+    transform: rotateY(90deg) translateZ(100px);
+  }
+  
+  .face--back {
+    transform: rotateY(180deg) translateZ(100px);
+  }
+  
+  .face--left {
+    transform: rotateY(-90deg) translateZ(100px);
+  }
+  
+  .face--top {
+    transform: rotateX(90deg) translateZ(100px);
+  }
+  
+  .face--bottom {
+    transform: rotateX(-90deg) translateZ(100px);
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotateX(-20deg) rotateY(-10deg);
+    }
+  
+    50% {
+      transform: rotateX(20deg) rotateY(320deg);
+    }
+  
+    to {
+      transform: rotateX(-20deg) rotateY(-20deg);
+    }
+  }
+  
 
 
 /* Mobile */
 @media(max-width: 450px) {
 
     h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     #container ul {
         display: block;
